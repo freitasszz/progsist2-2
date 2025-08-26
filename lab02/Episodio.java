@@ -1,6 +1,6 @@
 class Episodio {
     private String titulo;
-    private int duracao; // em minutos
+    private int duracao; 
 
     public Episodio(String titulo, int duracao) {
         this.titulo = titulo;

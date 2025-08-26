@@ -1,6 +1,6 @@
 abstract class Midia {
     private String titulo;
-    private int duracao; // em minutos
+    private int duracao; 
 
     public Midia(String titulo, int duracao) {
         this.titulo = titulo;

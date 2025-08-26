@@ -5,7 +5,7 @@ class Serie extends Midia {
     private List<Temporada> temporadas;
 
     public Serie(String titulo) {
-        super(titulo, 0); // A duração inicial é 0, será calculada dinamicamente
+        super(titulo, 0); 
         this.temporadas = new ArrayList<>();
     }
 

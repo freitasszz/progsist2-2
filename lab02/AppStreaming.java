@@ -17,7 +17,7 @@ public class AppStreaming {
             System.out.println("(4) Sair.");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
@@ -46,7 +46,7 @@ public class AppStreaming {
         String titulo = scanner.nextLine();
         System.out.print("Digite a duração do filme em minutos: ");
         int duracao = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha
+        scanner.nextLine(); 
 
         Filme novoFilme = new Filme(titulo, duracao);
         midias.add(novoFilme);
@@ -66,7 +66,7 @@ public class AppStreaming {
                 String tituloEpisodio = scanner.nextLine();
                 System.out.print("  Digite a duração do episódio " + j + " em minutos: ");
                 int duracaoEpisodio = scanner.nextInt();
-                scanner.nextLine(); // Consumir a quebra de linha
+                scanner.nextLine(); 
                 Episodio novoEpisodio = new Episodio(tituloEpisodio, duracaoEpisodio);
                 novaTemporada.adicionarEpisodio(novoEpisodio);
             }
